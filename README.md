@@ -5,7 +5,7 @@ VIM plugins and configuration
 
 Current configuration
 
-`~/.vim content`
+`~/.vim` content
 * autoload
   * [pathogen.vim](https://github.com/tpope/vim-pathogen)
 * bundle
