@@ -1,4 +1,5 @@
 if has("gui_running")
+    set vb t_vb=
     set guifont=Hack\ Regular:h13
     set mouse=i
     set background=dark
@@ -6,4 +7,7 @@ if has("gui_running")
     colorscheme pencil
     let g:airline_theme = 'pencil'
 endif
-set vb t_vb=
+
+" Toggle MENU mode with F3/SHIFT F3 keys
+nnoremap <F3> :set go+=T<CR>
+nnoremap <S-F3> :set go-=T<CR>
