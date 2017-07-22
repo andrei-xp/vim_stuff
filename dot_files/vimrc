@@ -31,9 +31,6 @@ filetype on
 filetype plugin on
 filetype plugin indent on
 
-" Fuzzy search
-set rtp+=/usr/local/opt/fzf
-
 " Set GUI options -- disable scrollbars [buffer and window]
 set guioptions-=l
 set guioptions-=L
