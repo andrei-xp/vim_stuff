@@ -7,29 +7,28 @@ Current configuration
 
 `~/.vim content`
 * autoload
-  * pathogen.vim
+  * [pathogen.vim](https://github.com/tpope/vim-pathogen)
 * bundle
-  * YouCompleteMe
-  * auto-pairs
-  * indentline
-  * ultisnips
-  * vim-airline
-  * vim-airline-clock
-  * vim-colors-pencil
-  * vim-commentary
-  * vim-deep-space
-  * vim-indentguides
-  * vim-numbertoggle
-  * vim-polyglot
-  * vim-sensible
-  * vim-snippets
+  * [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
+  * [auto-pairs](https://github.com/jiangmiao/auto-pairs)
+  * [indentline](clone https://github.com/yggdroot/indentline)
+  * [ultisnips](https://github.com/SirVer/ultisnips)
+  * [vim-airline](https://github.com/bling/vim-airline)
+  * [vim-airline-clock](https://github.com/enricobacis/vim-airline-clock)
+  * [vim-colors-pencil](https://github.com/reedes/vim-colors-pencil)
+  * [vim-commentary](https://github.com/tpope/vim-commentary)
+  * [vim-deep-space](https://github.com/tyrannicaltoucan/vim-deep-space)
+  * [vim-indentguides](https://github.com/thaerkh/vim-indentguides)
+  * [vim-numbertoggle](https://github.com/jeffkreeftmeijer/vim-numbertoggle)
+  * [vim-polyglot](https://github.com/sheerun/vim-polyglot)
+  * [vim-sensible](https://github.com/tpope/vim-sensible)
+  * [vim-snippets](https://github.com/honza/vim-snippets)
 * colors
-  * lucario.vim
-  * molokai.vim
-  * onehalfdark.vim
-  * onehalflight.vim
-  * vividchalk.vim
+  * [lucario.vim](https://github.com/partounian/custom-lucario)
+  * [molokai.vim](https://github.com/tomasr/molokai)
+  * [onehalfdark.vim](https://github.com/sonph/onehalf/tree/master/vim/colors)
+  * [onehalflight.vim](https://github.com/sonph/onehalf/tree/master/vim/colors)
+  * [vividchalk.vim](https://github.com/tpope/vim-vividchalk)
 * plugin
 ---
-
-Sources:
+All sources are linked whithin the list
