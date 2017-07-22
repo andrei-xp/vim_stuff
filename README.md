@@ -11,7 +11,7 @@ Current configuration
 * bundle
   * [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
   * [auto-pairs](https://github.com/jiangmiao/auto-pairs)
-  * [indentline](clone https://github.com/yggdroot/indentline)
+  * [indentline](https://github.com/yggdroot/indentline)
   * [ultisnips](https://github.com/SirVer/ultisnips)
   * [vim-airline](https://github.com/bling/vim-airline)
   * [vim-airline-clock](https://github.com/enricobacis/vim-airline-clock)
