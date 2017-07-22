@@ -31,6 +31,8 @@ Current configuration
   * [vividchalk.vim](https://github.com/tpope/vim-vividchalk)
 * plugin
 ---
+
 Font used in gVIM : [Hack Font](http://sourcefoundry.org/hack/)
+
 ---
 All sources are linked whithin the list
