@@ -1,0 +1,9 @@
+if has("gui_running")
+    set guifont=Hack\ Regular:h13
+    set mouse=i
+    set background=dark
+    set termguicolors
+    colorscheme pencil
+    let g:airline_theme = 'pencil'
+endif
+set vb t_vb=
