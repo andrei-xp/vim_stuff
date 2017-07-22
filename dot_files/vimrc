@@ -48,10 +48,6 @@ nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 set showmode
 
-" Toggle MENU mode with F3/SHIFT F3 keys
-nnoremap <F3> :set go+=T<CR>
-nnoremap <S-F3> :set go-=T<CR>
-
 " Default theme
 "colorscheme delek
 colorscheme pencil
