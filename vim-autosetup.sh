@@ -11,8 +11,12 @@ function install_pathogen() {
 function create_colors_dir() {
     [ -d ${VIM_CONFIG_DIR} ] && \
         mkdir -p ~/.vim/colors
-    
-    git clone https://github.com/tomasr/molokai.git     ~/.vim/colors/molokai
+
+    git clone https://github.com/tomasr/molokai.git                 ~/.vim/colors/molokai
+    git clone https://github.com/partounian/custom-lucario.git      ~/.vim/colors/custom-lucario
+
+    # Copy actual color file to ~/.vim/colors
+    find ~/.vim/colors/ -iname "*.vim" -exec cp {} ~/.vim/colors \;
 }
 
 function install_bundles() {
