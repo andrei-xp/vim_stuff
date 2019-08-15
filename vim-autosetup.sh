@@ -2,6 +2,7 @@ VIM_CONFIG_DIR="${HOME}/.vim"
 DATE=$(date '+%Y-%m-%d_%H:%M:%S')
 
 function install_pathogen() {
+
     [ ! -d ${VIM_CONFIG_DIR} ] && \
     mkdir -p ~/.vim/autoload ~/.vim/bundle && \
     curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim || \
@@ -9,6 +10,7 @@ function install_pathogen() {
 }
 
 function create_colors_dir() {
+
     [ -d ${VIM_CONFIG_DIR} ] && \
         mkdir -p ~/.vim/colors
 
@@ -34,6 +36,7 @@ function install_bundles() {
 }
 
 function create_vimrc() {
+
     [ -f ~/.vimrc ] || \
     [ ! -f ~/.vimrc] && \
     mv ~/.vimrc{,.${DATE}} && \

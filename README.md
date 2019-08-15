@@ -5,6 +5,8 @@ VIM plugins and configuration
 
 Current configuration
 
+`vim-autosetup.sh` : auto setup for vim. Doesn't contain all plugins (YouCompleteMe needs compiling)
+
 `~/.vim` content
 * autoload
   * [pathogen.vim](https://github.com/tpope/vim-pathogen)
