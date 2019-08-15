@@ -5,6 +5,9 @@ VIM plugins and configuration
 
 Current configuration
 
+### TO DO
+ * handle `.vimrc` better when missing
+
 `vim-autosetup.sh` : auto setup for vim. Doesn't contain all plugins (YouCompleteMe needs compiling)
 
 `~/.vim` content
