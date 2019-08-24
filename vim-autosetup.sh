@@ -38,7 +38,7 @@ function install_bundles() {
 function create_vimrc() {
 
     [ -f ~/.vimrc ] || \
-    [ ! -f ~/.vimrc] && \
+    [ ! -f ~/.vimrc ] && \
     mv ~/.vimrc{,.${DATE}} && \
     tee ~/.vimrc << EOF
 execute pathogen#infect()
