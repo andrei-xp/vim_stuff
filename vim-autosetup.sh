@@ -120,4 +120,4 @@ EOF
 install_pathogen
 create_colors_dir
 install_bundles
-create_vimrc
+# create_vimrc
