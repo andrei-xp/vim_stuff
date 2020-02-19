@@ -37,7 +37,7 @@ function install_bundles() {
 
 function copy_vimrc() {
 
-    test -f ~/.vimrc && mv ~/.vimrc{,.original}
+    test -f ~/.vimrc && mv ~/.vimrc{,.${DATE}}
     cp dot_files/vimrc ~/.vimrc
 }
 
